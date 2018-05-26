@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
         EditText number1 = findViewById(R.id.number1);
         EditText number2 = findViewById(R.id.number2);
         TextView result = findViewById(R.id.result);
-        int n1 = Integer.parseInt(number1.getText().toString());
-        int n2 = Integer.parseInt(number2.getText().toString());
-        result.setText(Integer.toString(n1 + n2));
+        double n1 = Double.parseDouble(number1.getText().toString());
+        double n2 = Double.parseDouble(number2.getText().toString());
+        result.setText(Double.toString(n1 + n2));
     }
 
     public void subClick(View v)
@@ -28,9 +28,9 @@ public class MainActivity extends AppCompatActivity {
         EditText number1 = findViewById(R.id.number1);
         EditText number2 = findViewById(R.id.number2);
         TextView result = findViewById(R.id.result);
-        int n1 = Integer.parseInt(number1.getText().toString());
-        int n2 = Integer.parseInt(number2.getText().toString());
-        result.setText(Integer.toString(n1 - n2));
+        double n1 = Double.parseDouble(number1.getText().toString());
+        double n2 = Double.parseDouble(number2.getText().toString());
+        result.setText(Double.toString(n1 - n2));
     }
 
     public void multiClick(View v)
@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
         EditText number1 = findViewById(R.id.number1);
         EditText number2 = findViewById(R.id.number2);
         TextView result = findViewById(R.id.result);
-        int n1 = Integer.parseInt(number1.getText().toString());
-        int n2 = Integer.parseInt(number2.getText().toString());
-        result.setText(Integer.toString(n1 * n2));
+        double n1 = Double.parseDouble(number1.getText().toString());
+        double n2 = Double.parseDouble(number2.getText().toString());
+        result.setText(Double.toString(n1 * n2));
     }
 
     public void divideClick(View v)
@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
         EditText number1 = findViewById(R.id.number1);
         EditText number2 = findViewById(R.id.number2);
         TextView result = findViewById(R.id.result);
-        int n1 = Integer.parseInt(number1.getText().toString());
-        int n2 = Integer.parseInt(number2.getText().toString());
-        result.setText(Integer.toString(n1 / n2));
+        double n1 = Double.parseDouble(number1.getText().toString());
+        double n2 = Double.parseDouble(number2.getText().toString());
+        result.setText(Double.toString(n1 / n2));
     }
 }
