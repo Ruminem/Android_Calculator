@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TEST2</string>
+    <string name="firstInput">첫 번째 입력</string>
+    <string name="secondInput">두 번째 입력</string>
+    <string name="add">덧셈</string>
+    <string name="sub">뺄셈</string>
+    <string name="multi">곱셈</string>
+    <string name="divide">나눗셈</string>
+</resources>
